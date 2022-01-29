@@ -1,0 +1,17 @@
+@import "../../ThemeVariables.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Header-AppHeader {
+    @apply bg-primary_bg p-3 pl-10 shadow-sm shadow-primary_fg dark:bg-primary_bg_dark;
+}
+
+.Header-HeaderText {
+    @apply text-primary_fg dark:text-primary_fg_dark font-mono text-xl ;
+}
+
+.Header-CustomSwitch {
+    @apply float-right;
+}

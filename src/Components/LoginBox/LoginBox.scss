@@ -1,0 +1,29 @@
+@import "../../ThemeVariables.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.LoginBox-LoginBox{
+    @apply flex flex-col absolute top-1/2 left-1/2 p-5 pt-0 -translate-x-1/2 justify-around 
+            -translate-y-1/2 bg-primary_bg dark:bg-primary_bg_dark w-96 h-72  font-mono font-light text-primary_fg dark:text-primary_fg_dark
+            shadow-sm shadow-primary_fg dark:shadow-primary_bg_dark rounded;
+}
+
+.LoginBox-LoginButtonText {
+    @apply font-mono text-lg ml-2.5;
+}
+
+
+.LoginBox-LoginButtonIcon {
+    color: $primary-bg;
+}
+
+.LoginBox-LoginButtonIconDark {
+    color: $primary-bg-dark;
+}
+
+.LoginBox-AccountIcon {
+    @apply relative self-center bottom-10 text-primary_fg dark:text-primary_fg_dark;
+}

@@ -1,0 +1,30 @@
+/*
+    Global theme configuration 
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* LIGHT THEME */
+$primary-fg: theme('colors.primary_fg');
+$primary-bg: theme('colors.primary_bg');
+$primary-fg-focus: theme('colors.primary_fg_focus');
+
+/* DARK THEME */
+$primary-fg-dark: theme('colors.primary_fg_dark');
+$primary-bg-dark: theme('colors.primary_bg_dark');
+$primary-fg-focus-dark: theme('colors.primary_fg_focus_dark');
+
+:export {
+    light: {
+        primary-fg: $primary-fg;
+        primary-bg: $primary-bg;
+        primary-fg-focus: $primary-fg-focus;
+    }
+    dark: {
+        primary-fg: $primary-fg-dark; 
+        primary-bg: $primary-bg-dark;
+        primary-fg-focus: $primary-fg-focus-dark;
+    }
+}

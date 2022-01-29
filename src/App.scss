@@ -1,0 +1,11 @@
+/*
+    Global configuration
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-300 dark:bg-slate-600;  
+}
