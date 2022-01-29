@@ -1,3 +1,7 @@
+![](https://img.shields.io/github/issues/Spelchure/ReactThemedLogin?style=flat-square) 
+![](https://img.shields.io/github/license/Spelchure/ReactThemedLogin?style=flat-square)
+![](https://img.shields.io/github/languages/top/Spelchure/ReactThemedLogin?style=flat-square)
+
 # React & Tailwind CSS & SASS & MaterialUI 
 This project combines [Tailwind CSS](https://tailwindcss.com/) & [Material UI](https://mui.com/) and [Sass](https://sass-lang.com/)
  in a structured form.  Supports theming at the level of these 3 tools.
